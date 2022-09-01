@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-umoz#u2%=_ra6hyw63i_xajk#e=k-j$bsp$4$egec3xk_^r29c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition

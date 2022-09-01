@@ -8,7 +8,7 @@ from core.views import AlimentoViewSet,CardapioViewSet,RefeicaoesViewSet
 router = DefaultRouter()
 router.register(r'Alimentos', AlimentoViewSet)
 router.register(r'Cardapios', CardapioViewSet)
-router.register(r'Refeiçoes', RefeicaoesViewSet)
+router.register(r'Refeicoes', RefeicaoesViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),

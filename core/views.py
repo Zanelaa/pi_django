@@ -1,4 +1,6 @@
+#from rest_framework.permissions import IsAuthenticated#
 from rest_framework.viewsets import ModelViewSet
+
 
 from core.models import Alimento,Cardapio,Refeicaoes
 from core.serializers import AlimentoSerializer, CardapioSerializer,RefeicaoesSerializer
@@ -6,6 +8,7 @@ from core.serializers import AlimentoSerializer, CardapioSerializer,RefeicaoesSe
 class AlimentoViewSet(ModelViewSet):
     queryset = Alimento.objects.all()
     serializer_class = AlimentoSerializer
+    #permission_classes = [IsAuthenticated]#
 
 class CardapioViewSet(ModelViewSet):
     queryset = Cardapio.objects.all()

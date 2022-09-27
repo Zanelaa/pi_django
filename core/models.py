@@ -1,4 +1,13 @@
+from pickletools import decimalnl_long
+from unicodedata import decimal
 from django.db import models
+from django.contrib.auth.models import AbstractUser
+
+
+class Usuario(AbstractUser):
+    login = models.CharField(max_length=16, unique=True)
+    email = models.CharField(null=False)
+    senha = models.CharField(max_length=8, null=False)
 
 class Refeicaoes(models.Model):
     tituloref = models.CharField(max_length=200) 

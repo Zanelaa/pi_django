@@ -34,6 +34,7 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
 }
 # Application definition
 
@@ -47,6 +48,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     "rest_framework",
     "core",
+    "drf_spectacular",
 ]
 
 MIDDLEWARE = [
@@ -136,3 +138,9 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 AUTH_USER_MODEL = "core.Usuario"
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Diet Menu",
+    "DESCRIPTION": "Projeto integrador incluindo endpoints",
+    "VERSION": "1.0.0", 
+}

@@ -1,0 +1,174 @@
+[
+{
+    "model": "core.alimento",
+    "pk": 1,
+    "fields": {
+        "nome_alimento": "Batata",
+        "quant_carbo": 30,
+        "quant_gordura": 20,
+        "calorias": 60,
+        "quant_proteina": 15,
+        "peso_p_porcao": 100
+    }
+},
+{
+    "model": "core.alimento",
+    "pk": 2,
+    "fields": {
+        "nome_alimento": "Arroz",
+        "quant_carbo": 15,
+        "quant_gordura": 10,
+        "calorias": 80,
+        "quant_proteina": 20,
+        "peso_p_porcao": 100
+    }
+},
+{
+    "model": "core.alimento",
+    "pk": 3,
+    "fields": {
+        "nome_alimento": "Cenoura",
+        "quant_carbo": 20,
+        "quant_gordura": 15,
+        "calorias": 70,
+        "quant_proteina": 20,
+        "peso_p_porcao": 50
+    }
+},
+{
+    "model": "core.alimento",
+    "pk": 4,
+    "fields": {
+        "nome_alimento": "Feijão",
+        "quant_carbo": 160,
+        "quant_gordura": 30,
+        "calorias": 220,
+        "quant_proteina": 30,
+        "peso_p_porcao": 200
+    }
+},
+{
+    "model": "core.alimento",
+    "pk": 5,
+    "fields": {
+        "nome_alimento": "cenoura(cozida no vapor)",
+        "quant_carbo": 40,
+        "quant_gordura": 30,
+        "calorias": 80,
+        "quant_proteina": 15,
+        "peso_p_porcao": 50
+    }
+},
+{
+    "model": "core.alimento",
+    "pk": 6,
+    "fields": {
+        "nome_alimento": "beterraba",
+        "quant_carbo": 40,
+        "quant_gordura": 70,
+        "calorias": 130,
+        "quant_proteina": 40,
+        "peso_p_porcao": 80
+    }
+},
+{
+    "model": "core.cardapio",
+    "pk": 2,
+    "fields": {
+        "titulo_card": "morte a dieta",
+        "comentario": "HHTHHRHRTHTRHTGEUYWEFGEWYFGIQUWG"
+    }
+},
+{
+    "model": "core.cardapio",
+    "pk": 3,
+    "fields": {
+        "titulo_card": "DE CRIA",
+        "comentario": "JVFFEVS"
+    }
+},
+{
+    "model": "core.refeicoes",
+    "pk": 1,
+    "fields": {
+        "nome_refeicao": "BABAN ACOM AVEIA",
+        "horario_refeicao": "2022-10-04T19:45:20Z",
+        "cardapios": 3,
+        "alimentos": [
+            1,
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "core.refeicoes",
+    "pk": 2,
+    "fields": {
+        "nome_refeicao": "ERKVLV",
+        "horario_refeicao": "2022-10-04T19:46:08Z",
+        "cardapios": 3,
+        "alimentos": [
+            4
+        ]
+    }
+},
+{
+    "model": "core.refeicoes",
+    "pk": 3,
+    "fields": {
+        "nome_refeicao": "almoço de sexta feira",
+        "horario_refeicao": "2022-10-06T15:00:00Z",
+        "cardapios": 2,
+        "alimentos": [
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "core.usuario",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$miwGyAmTmr2RBM8XqPks87$v0EtRStFKR+YA7DYhhH8m0dYkBCsOTOWr9Ku5fIYnxA=",
+        "last_login": "2022-10-06T15:24:53.620Z",
+        "is_superuser": true,
+        "username": "administrador",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-10-03T17:11:36Z",
+        "cpf": "14499977754",
+        "telefone": null,
+        "data_nascimento": "2004-10-03",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "core.usuario",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$DCaIbDzyiHa0C4NOIDWpZy$1oUD94JR5W2C0nBagxBHemLpfCHAeSXshxtNoD+xUqw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Jorge",
+        "first_name": "Jorge",
+        "last_name": "Zanela",
+        "email": "Jorge@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-10-03T17:34:51Z",
+        "cpf": "11133355567",
+        "telefone": null,
+        "data_nascimento": null,
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

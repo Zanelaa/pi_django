@@ -92,7 +92,6 @@
     "pk": 1,
     "fields": {
         "nome_refeicao": "BABAN ACOM AVEIA",
-        "horario_refeicao": "2022-10-04T19:45:20Z",
         "cardapios": 3,
         "alimentos": [
             1,
@@ -106,7 +105,6 @@
     "pk": 2,
     "fields": {
         "nome_refeicao": "ERKVLV",
-        "horario_refeicao": "2022-10-04T19:46:08Z",
         "cardapios": 3,
         "alimentos": [
             4
@@ -118,7 +116,6 @@
     "pk": 3,
     "fields": {
         "nome_refeicao": "almoço de sexta feira",
-        "horario_refeicao": "2022-10-06T15:00:00Z",
         "cardapios": 2,
         "alimentos": [
             2,
